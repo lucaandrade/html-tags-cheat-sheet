@@ -3,8 +3,94 @@
 </html>
     <head>
     <title>HTML Tags Cheat Sheet</title>
+    </head>
     <body>
-    <h1></h1>
+    <h1 id="top-of-page">HTML Tags Cheat Sheet</h1>
+
+    <h2 id="heading">Headings</h2>
+    <p>
+        <a href="#heading">Headings</a> from 'h1' to 'h6' indentify blocks and sections. Every page must have an 'h1'.
+    </p>
+    <h2>List</h2>
+    <h3 id="unordered-lists">Unordered Lists</h3>
+    <p>
+        <a href="#unordered-lists"> Unordered lists</a> are marked with bullet points and go in `ul` tags. Each list item goes in an `li` tag.
+    </p>
+    <h4>Types of lists:</h4>
+    <ul>
+        <li>Unordered lists (`ul`)</li>
+        <li>Ordered lists (`ol`)</li>
+    </ul>
+    <h3 id="ordered-lists">Ordered Lists:</h3>
+    <p>
+        <a href="#ordered-lists"> Ordered lists</a> are numbered and go in `ol` tags. Each list item goes in an `li` tag.
+    </p>
+    <h4>Polya's Problem Solving Network</h4>
+    <ol>
+        <li>Understand the problem</li>
+        <li>Come up with a plan</li>
+        <li>Carry out the plan</li>
+        <li>Go back and improve your solution</li>
+    </ol>
+    <h2 id="anchors">Anchors</h2>
+    <p>
+      <a href="#anchors"> Anchor</a> tags create links to other pages. The URL goes in the `href` attribute.
+      <a href="https://duckduckgo.com">
+        Go to DuckDuckGo to search for more information.
+    </a>
+    </p>
+    <p>
+        Setting `target="_blank"` will open the link in a new window. See
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+            MDN
+        </a>
+        for more details.
+    </p>
+    <p>
+      Anchor tags can also create links to a new location on the same page. Instead of putting a URL goes in the "href" attribute, just use the "id" of the element you want to navigate to. This allows you to
+       <a href="#top-of-page">
+        Jump to the top of the page.
+        </a>
+    </p>
+    <h2 id="text-emphasis">Text Emphasis</h2>
+        <h3>Italic</h3>
+        <em>
+            The `em` element adds extra emphasis to the <a href="#text-emphasis"> text </a> within the opening and closing tags. This shows up as italic text in most browsers.
+        </em>
+        <h3>Bold</h3>
+        <strong>
+            You can also use the `strong` element to emphasize <a href="#text-emphasis"> text </a>. This shows up as bold text in most browsers.
+        </strong>
+
+        <h2>Organizing Content with `div` and `span`</h2>
+        <h3>`div`</h3>
+            <p>
+                The `div` element is a block element, so each `div` will show up on a new line.
+            </p>
+            <div>1st div</div>
+            <div>2nd div</div>
+            <div>3nd div</div>
+        <h3>`span`</h3>
+            <p>
+                The `span` element is an inline element, so there will be no line break between each `span`.
+            </p>
+            <span>1st span</span>
+            <span>2nd span</span>
+            <span>3rd span</span>
+
+        <h2> Breaking the text using the 'br' tag</h2>
+        <p>
+            When I was seven years old<br>
+            I flew in a plane for the first time<br>
+            And I created a game for myself<br>
+            Count the number of backyards pools you see<br>
+            You miss one, you lose<br>
+            When I turned twenty-one<br>
+            I flew to los angeles<br>
+            Which was first for me on two accounts<br>
+            My first time in L.A<br>
+            And my first time losing my swimming pool game!
+        </p>
     </body>
     </head>
 </html>
